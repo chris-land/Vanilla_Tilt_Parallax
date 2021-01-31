@@ -1,0 +1,23 @@
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+.BG{     
+    width: 30vw;
+    height: 42vw;
+     background-image: url('img/tilt.jpg');
+    background-position: center;
+    background-size: cover;
+    transform-style: preserve-3d;
+    margin-left:35vw;
+    margin-top: 50px;
+}
+
+.one{
+    width: 30vw;
+    transform: translateZ(80px);
+    transition: transform .9s;
+    z-index: 2;
+    margin-top: 200px;
+ } 
